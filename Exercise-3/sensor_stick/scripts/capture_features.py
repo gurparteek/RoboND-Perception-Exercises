@@ -24,13 +24,11 @@ if __name__ == '__main__':
     rospy.init_node('capture_node')
 
     models = [\
-       'beer',
-       'bowl',
-       'create',
-       'disk_part',
-       'hammer',
-       'plastic_cup',
-       'soda_can']
+       'biscuits',
+       'soap',
+       'book',
+       'soap2',
+       'glue']
 
     # Disable gravity and delete the ground plane
     initial_setup()

@@ -101,7 +101,7 @@ clf.fit(X=X_train, y=y_train)
 model = {'classifier': clf, 'classes': encoder.classes_, 'scaler': X_scaler}
 
 # Save classifier to disk
-pickle.dump(model, open('model.sav', 'wb'))
+pickle.dump(model, open('model2.sav', 'wb'))
 
 # Plot non-normalized confusion matrix
 plt.figure()
